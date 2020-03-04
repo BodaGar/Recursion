@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.html_tree {
+    max-width: 500px;
+    min-height: 700px;
+    background: rgb(230, 221, 221);
+    border: 1px solid rgb(104, 104, 104);
+}
+
+.img_TargetSystem {
+    width: 30px;
+    height: 30px;
+    margin-left: 2%;
+}
+
+.text_TargetSystem {
+    border: none;
+    padding: 15px 2% 15px 30px;
+    max-width: 165px;
+    display: flex;
+    align-items: center;
+    font-size: .9em;
+    font-weight: 600;
+    cursor: pointer;
+    background: url('http://i.piccy.info/i9/bacedfe2fb6a390eb81507d5a86e432a/1577816730/10894/1119373/TargetSystem.png') no-repeat center left;
+    background-size: 25px 25px;
+}
+
+.list .firstLevel {
+    list-style: url(http://i.piccy.info/i9/948ed4ba88920452b7345122115e6d40/1577816792/1307/1119373/folder.png);
+    color: red;
+    font-size: 20px;
+    margin: 10px 0 0 50px;
+}
